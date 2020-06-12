@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-//I have no idea if this even works properly, since I dont remember the given problem.
+
 int main()
 {
    int n;
@@ -10,29 +10,20 @@ int main()
    string cont[n];
    cin >> n;
 
-   for(int i = 0; i < n; i++)
-   {
+   for(int i = 0; i < n; i++){
         cin >> cont[i];
    }
-   
 
-   for(int i = 0; i <= n; i++)
-   {
-        if(cont[i].length()>10)
-        {
-            for(int z = 0; z <= n; z++)
-            {
+   for(int i = 0; i <= n; i++){
+        if(cont[i].length()>10){
+            for(int z = 0; z <= n; z++){
                 cont[i] = f[z];
             }
-
-                for(int j = 1; j < n; j++)
-                {
+                for(int j = 1; j < n; j++){
                     sum = sum + 1;
                 }
-                    cout << f[0] << sum << f[n] << endl;
-        }
-        else
-        {
+                cout << f[0] << sum << f[n] << endl;
+        }else{
             cout << cont[i] << endl;
         }
 
