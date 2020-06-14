@@ -3,7 +3,7 @@ Basically, here I will upload my solutions to problems from various competitive 
 
 **Goal:** Practice problem solving.
 
-In order to run any of the code from this repository you will have to:
+**In order to run any of the code from this repository one will have to:**
 
 **1.** Compile the source code
 
